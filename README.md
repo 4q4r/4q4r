@@ -278,7 +278,7 @@ In my free time, I dive into the world of cybersecurity: analyzing malware, rese
 
 ## 🧭 How I Ship
 
-Every change takes the same path — no hotfixes typed straight onto the box.
+Every code change takes the same path — no hand-edited builds on the server.
 
 ```mermaid
 flowchart LR
@@ -292,7 +292,7 @@ flowchart LR
 - **Change** — one topic per branch, conventional commits, review before merge.
 - **Quality gate** — linters, type checks and tests must be green; a failing gate blocks the merge.
 - **Image** — distroless, non-root, reproducible builds.
-- **Deploy** — Docker Compose or Ansible across nodes; secrets never baked into images.
+- **Deploy** — Docker Compose or Ansible across nodes; secrets are not baked into images.
 - **Verify** — probe the deployed artifact: real routes, real logs, real rows.
 
 ---
