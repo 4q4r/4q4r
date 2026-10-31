@@ -1,0 +1,54 @@
+name: Metrics
+on:
+  schedule: [{ cron: "0 0 * * *" }]
+  workflow_dispatch:
+  push: { branches: ["main"] }
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: General metrics
+        uses: 4q4r/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: header, activity, community, repositories, metadata
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: yes
+          plugin_languages_details: yes
+          plugin_introduction: yes
+          filename: metrics.general.svg
+
+      - name: Shikimori metrics
+        uses: 4q4r/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: ""
+          plugin_shikimori: yes
+          plugin_shikimori_user: whynothacked
+          filename: metrics.shikimori.svg
+
+      - name: Achievements
+        uses: 4q4r/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          filename: metrics.achievements.svg
+
+      - name: Repository traffic
+        uses: 4q4r/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: ""
+          plugin_traffic: yes
+          filename: metrics.traffic.svg
