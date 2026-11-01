@@ -32,18 +32,39 @@ jobs:
           base: ""
           plugin_shikimori: yes
           plugin_shikimori_user: whynothacked
-          plugin_shikimori_sections: favorites, stats, genres
           filename: metrics.shikimori.svg
 
-      - name: Achievements
+      - name: Notable contributions
         uses: 4q4r/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           template: classic
           base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          filename: metrics.achievements.svg
+          plugin_notable: yes
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes
+          filename: metrics.notable.svg
+
+      - name: Featured repositories
+        uses: 4q4r/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_pinned: 6
+          filename: metrics.repositories.svg
+
+      - name: Recent activity
+        uses: 4q4r/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 8
+          plugin_activity_days: 14
+          filename: metrics.activity.svg
 
       - name: Repository traffic
         uses: 4q4r/metrics@master

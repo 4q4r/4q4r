@@ -18,13 +18,19 @@
   <sub>Open to remote work, UTC+3</sub>
 </p>
 
-[<img align="left" width="390" alt="Metrics" src="/metrics.general.svg">](#)
-[<img align="right" width="390" alt="Shikimori" src="/metrics.shikimori.svg">](#)
-[<img align="right" width="390" height="80" alt="" src="/metrics.placeholder.svg">](#)
-
-[<img align="left" width="390" alt="Achievements" src="/metrics.achievements.svg">](#)
-
-<br clear="both">
+<table>
+  <tr>
+    <td valign="top"><img src="/metrics.general.svg" width="390" alt="Metrics"></td>
+    <td valign="top"><img src="/metrics.shikimori.svg" width="390" alt="Shikimori"></td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="/metrics.notable.svg" width="390" alt="Notable contributions"></td>
+    <td valign="top"><img src="/metrics.repositories.svg" width="390" alt="Featured repositories"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="/metrics.activity.svg" width="100%" alt="Recent activity"></td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="/metrics.traffic.svg" alt="Repository traffic" width="100%">
@@ -32,4 +38,4 @@
 
 ## 📫 Contact
 
-- Telegram: [@whynothacked](https://t.me/whynothacked) — одно сообщение по существу.
+- Telegram: [@whynothacked](https://t.me/whynothacked) — one message on the merits.
