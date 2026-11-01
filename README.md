@@ -27,9 +27,6 @@
     <td valign="top"><img src="/metrics.notable.svg" width="390" alt="Notable contributions"></td>
     <td valign="top"><img src="/metrics.repositories.svg" width="390" alt="Featured repositories"></td>
   </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="/metrics.activity.svg" width="100%" alt="Recent activity"></td>
-  </tr>
 </table>
 
 <p align="center">
