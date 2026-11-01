@@ -52,7 +52,7 @@ jobs:
           template: classic
           base: ""
           plugin_repositories: yes
-          plugin_repositories_pinned: 6
+          plugin_repositories_starred: 6
           filename: metrics.repositories.svg
 
       - name: Recent activity
@@ -64,6 +64,7 @@ jobs:
           plugin_activity: yes
           plugin_activity_limit: 8
           plugin_activity_days: 14
+          plugin_activity_filter: push, pr, issue, release, review, ref/create
           filename: metrics.activity.svg
 
       - name: Repository traffic
