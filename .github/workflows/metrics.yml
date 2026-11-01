@@ -32,6 +32,7 @@ jobs:
           base: ""
           plugin_shikimori: yes
           plugin_shikimori_user: whynothacked
+          plugin_shikimori_sections: favorites, stats, genres
           filename: metrics.shikimori.svg
 
       - name: Achievements
