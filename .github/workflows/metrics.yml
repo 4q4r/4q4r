@@ -41,7 +41,6 @@ jobs:
           template: classic
           base: ""
           plugin_notable: yes
-          plugin_notable_indepth: yes
           plugin_notable_repositories: yes
           filename: metrics.notable.svg
 
@@ -54,18 +53,6 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_starred: 6
           filename: metrics.repositories.svg
-
-      - name: Recent activity
-        uses: 4q4r/metrics@master
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          template: classic
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 8
-          plugin_activity_days: 14
-          plugin_activity_filter: push, pr, issue, release, review, ref/create
-          filename: metrics.activity.svg
 
       - name: Repository traffic
         uses: 4q4r/metrics@master
