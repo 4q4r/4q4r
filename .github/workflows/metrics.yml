@@ -35,6 +35,18 @@ jobs:
           plugin_shikimori_sections: favorites, stats, genres
           filename: metrics.shikimori.svg
 
+      - name: Recently used languages
+        uses: 4q4r/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: ""
+          plugin_languages: yes
+          plugin_languages_sections: recently-used
+          plugin_languages_indepth: yes
+          plugin_languages_details: yes
+          filename: metrics.languages-recent.svg
+
       - name: Notable contributions
         uses: 4q4r/metrics@master
         with:

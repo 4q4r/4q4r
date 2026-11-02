@@ -25,7 +25,10 @@
   </tr>
   <tr>
     <td valign="top"><img src="/metrics.notable.svg" width="390" alt="Notable contributions"></td>
-    <td valign="top"><img src="/metrics.repositories.svg" width="390" alt="Featured repositories"></td>
+    <td valign="top"><img src="/metrics.languages-recent.svg" width="390" alt="Recently used languages"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="/metrics.repositories.svg" width="100%" alt="Featured repositories"></td>
   </tr>
 </table>
 
