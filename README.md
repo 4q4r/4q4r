@@ -18,19 +18,16 @@
   <sub>Open to remote work, UTC+3</sub>
 </p>
 
-<table>
-  <tr>
-    <td valign="top"><img src="/metrics.general.svg" width="390" alt="Metrics"></td>
-    <td valign="top"><img src="/metrics.shikimori.svg" width="390" alt="Shikimori"></td>
-  </tr>
-  <tr>
-    <td valign="top"><img src="/metrics.notable.svg" width="390" alt="Notable contributions"></td>
-    <td valign="top"><img src="/metrics.languages-recent.svg" width="390" alt="Recently used languages"></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="/metrics.repositories.svg" width="100%" alt="Featured repositories"></td>
-  </tr>
-</table>
+[<img align="left" width="390" alt="Metrics" src="/metrics.general.svg">](#)
+[<img align="right" width="390" alt="Shikimori" src="/metrics.shikimori.svg">](#)
+[<img align="right" width="390" height="80" alt="" src="/metrics.placeholder.svg">](#)
+
+[<img align="left" width="390" alt="Notable contributions" src="/metrics.notable.svg">](#)
+[<img align="right" width="390" alt="Recently used languages" src="/metrics.languages-recent.svg">](#)
+
+[<img align="left" width="390" alt="Featured repositories" src="/metrics.repositories.svg">](#)
+
+<br clear="both">
 
 <p align="center">
   <img src="/metrics.traffic.svg" alt="Repository traffic" width="100%">
