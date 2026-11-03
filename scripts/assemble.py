@@ -22,7 +22,7 @@ def adopt(src,dst):
  print(f'Rejected failed/missing SVG: {src}',file=sys.stderr); return False
 # GitHub profile summary cards are output to a deterministic Tokyo Night directory.
 summary={
- 'profile-details.svg':'profile/summary/profile-details.svg',
+ '0-profile-details.svg':'profile/summary/profile-details.svg',
  '3-stats.svg':'profile/summary/stats.svg',
  '2-most-commit-language.svg':'profile/summary/languages.svg'}
 base=Path('profile-summary-card-output/tokyonight')

@@ -10,6 +10,8 @@ for marker in ['<!-- PROJECTS:START','<!-- PROJECTS:END -->','<!-- FOLLOWUP:STAR
  assert marker in readme, f'missing README marker {marker}'
 for p in [r/'README.md',r/'.github/workflows/metrics.yml',r/'scripts/select_projects.py',r/'scripts/assemble.py',r/'assets/rem-re-zero.gif',r/'profile/metrics.notable.svg',r/'profile/metrics.shikimori.svg']:
  assert p.exists() and p.stat().st_size>50,p
+for name in ('profile-details.svg','stats.svg','languages.svg'):
+ p=r/'profile/summary'/name; assert p.exists() and p.stat().st_size>500,p
 for p in (r/'profile/summary').glob('*.svg'):
  svg=ET.parse(p).getroot(); assert svg.tag.endswith('svg') and p.stat().st_size>500,p
  assert not any(x in ' '.join(svg.itertext()).lower() for x in ('unexpected error','deployment_disabled','api rate limit exceeded')),p
