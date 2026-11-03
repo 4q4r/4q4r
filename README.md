@@ -38,20 +38,17 @@
 <details>
 <summary>✦ More stats — open-source & anime</summary>
 
-<div align="center">
-  <img width="720" src="./profile/metrics.notable.svg" alt="Notable open-source contributions">
-</div>
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
+<tr>
+<td width="50%" valign="middle" align="center">
+  <img width="100%" src="./profile/metrics.notable.svg" alt="Notable open-source contributions">
+</td>
+<td width="50%" valign="middle" align="center">
+  <img width="100%" src="./profile/metrics.shikimori.svg" alt="Shikimori anime statistics">
+</td>
+</tr>
+</table>
 
-<p align="center"><i>Additional legacy Metrics card; hidden by default.</i></p>
-
-</details>
-
-<details>
-<summary>✦ Anime / Shikimori stats</summary>
-<br>
-<div align="center">
-  <img width="720" src="./profile/metrics.shikimori.svg" alt="Shikimori anime statistics">
-</div>
 </details>
 
 ---
