@@ -1,77 +1,111 @@
-name: Metrics
+name: Refresh profile README cards
 on:
-  schedule: [{ cron: "0 */4 * * *" }]
   workflow_dispatch:
-  push: { branches: ["main"] }
-
+    inputs:
+      publish:
+        description: Commit successful renders and the README to this repository (otherwise artifact preview only)
+        required: true
+        type: boolean
+        default: true
+  schedule:
+    - cron: '23 * * * *'
+permissions:
+  contents: read
+concurrency:
+  group: profile-readme-refresh
+  cancel-in-progress: false
 jobs:
-  github-metrics:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Choose random public projects
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
+        run: python3 scripts/select_projects.py
+      - name: Generate Tokyo Night summary cards (no self-commit)
+        id: summary
+        continue-on-error: true
+        uses: vn7n24fzkq/github-profile-summary-cards@7022eb6bd48de38b092f54110a8ff8185f2ac4a1 # v0.13.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: ${{ github.event.repository.default_branch }}
+          THEME: tokyonight
+          UTC_OFFSET: 3
+          ANIMATION: fade
+          AUTO_PUSH: false
+      - name: Generate contribution follow-up metrics (read-only; no commit)
+        id: followup
+        continue-on-error: true
+        uses: 4q4r/metrics@e49181da596dd25120a9b650614224b5cd26cc85 # fork of lowlighter/metrics; pinned master commit checked 2026-11-03
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          repo: ${{ github.event.repository.name }}
+          filename: metrics.followup.svg
+          output_action: none
+          base: ''
+          config_timezone: Europe/Moscow
+          config_output: svg
+          config_padding: 12
+          extras_css: |
+            svg { background: #1a1b27; color: #c0caf5; }
+            h1, h2, h3 { color: #bb9af7; }
+            a { color: #7aa2f7; }
+          plugins_errors_fatal: yes
+          quota_required_search: 0
+          plugin_followup: yes
+          plugin_followup_sections: repositories,user
+          plugin_followup_indepth: no
+          plugin_followup_archived: no
+      - name: Assemble and validate candidates
+        env:
+          SUMMARY_OK: ${{ steps.summary.outcome == 'success' }}
+          FOLLOWUP_OK: ${{ steps.followup.outcome == 'success' }}
+          METRICS_OK: 'false'
+        run: python3 scripts/assemble.py
+      - name: Validate README assets and output structure
+        run: python3 scripts/check_package.py
+      - name: Upload preview artifact only (no repository write)
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: profile-readme-preview
+          path: |
+            README.md
+            assets/rem-re-zero.gif
+            profile/
+            config/projects.json
+          if-no-files-found: error
+
+  publish:
+    needs: render
+    if: github.event_name == 'schedule' || inputs.publish == true
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: General metrics
-        uses: 4q4r/metrics@master
+      - name: Check out profile repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Download rendered preview files
+        uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          template: classic
-          base: header, activity, community, repositories, metadata
-          plugin_isocalendar: yes
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
-          plugin_languages_details: yes
-          plugin_introduction: yes
-          filename: metrics.general.svg
-
-      - name: Shikimori metrics
-        uses: 4q4r/metrics@master
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          template: classic
-          base: ""
-          plugin_shikimori: yes
-          plugin_shikimori_user: whynothacked
-          plugin_shikimori_sections: favorites, stats, genres
-          filename: metrics.shikimori.svg
-
-      - name: Recently used languages
-        uses: 4q4r/metrics@master
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          template: classic
-          base: ""
-          plugin_languages: yes
-          plugin_languages_sections: recently-used
-          plugin_languages_indepth: yes
-          plugin_languages_details: yes
-          filename: metrics.languages-recent.svg
-
-      - name: Notable contributions
-        uses: 4q4r/metrics@master
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          template: classic
-          base: ""
-          plugin_notable: yes
-          plugin_notable_repositories: yes
-          filename: metrics.notable.svg
-
-      - name: Featured repositories
-        uses: 4q4r/metrics@master
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          template: classic
-          base: ""
-          plugin_repositories: yes
-          plugin_repositories_starred: 6
-          filename: metrics.repositories.svg
-
-      - name: Repository traffic
-        uses: 4q4r/metrics@master
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          template: classic
-          base: ""
-          plugin_traffic: yes
-          filename: metrics.traffic.svg
+          name: profile-readme-preview
+          path: .
+      - name: Commit only changed README and generated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md profile assets/rem-re-zero.gif config/projects.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to publish."
+          else
+            git commit -m "chore: refresh profile README cards [skip ci]"
+            git push
+          fi

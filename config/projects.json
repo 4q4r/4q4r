@@ -1,0 +1,7 @@
+{
+  "count": 4,
+  "exclude": ["4q4r", "metrics", "README"],
+  "include_forks": false,
+  "include_archived": false,
+  "avoid_repeating_exact_set": true
+}
