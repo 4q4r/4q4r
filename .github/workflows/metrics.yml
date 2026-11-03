@@ -29,7 +29,6 @@ jobs:
           PROFILE_OWNER: ${{ github.repository_owner }}
         run: python3 scripts/select_projects.py
       - name: Generate Tokyo Night summary cards (no self-commit)
-        id: summary
         continue-on-error: true
         uses: vn7n24fzkq/github-profile-summary-cards@7022eb6bd48de38b092f54110a8ff8185f2ac4a1 # v0.13.0
         env:
@@ -41,35 +40,7 @@ jobs:
           UTC_OFFSET: 3
           ANIMATION: fade
           AUTO_PUSH: false
-      - name: Generate contribution follow-up metrics (read-only; no commit)
-        id: followup
-        continue-on-error: true
-        uses: 4q4r/metrics@e49181da596dd25120a9b650614224b5cd26cc85 # fork of lowlighter/metrics; pinned master commit checked 2026-11-03
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: ${{ github.repository_owner }}
-          repo: ${{ github.event.repository.name }}
-          filename: metrics.followup.svg
-          output_action: none
-          base: ''
-          config_timezone: Europe/Moscow
-          config_output: svg
-          config_padding: 12
-          extras_css: |
-            svg { background: #1a1b27; color: #c0caf5; }
-            h1, h2, h3 { color: #bb9af7; }
-            a { color: #7aa2f7; }
-          plugins_errors_fatal: yes
-          quota_required_search: 0
-          plugin_followup: yes
-          plugin_followup_sections: repositories,user
-          plugin_followup_indepth: no
-          plugin_followup_archived: no
       - name: Assemble and validate candidates
-        env:
-          SUMMARY_OK: ${{ steps.summary.outcome == 'success' }}
-          FOLLOWUP_OK: ${{ steps.followup.outcome == 'success' }}
-          METRICS_OK: 'false'
         run: python3 scripts/assemble.py
       - name: Validate README assets and output structure
         run: python3 scripts/check_package.py
