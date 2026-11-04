@@ -25,8 +25,8 @@
 <!-- PROJECTS:START — generated from all current public repositories; edit config/projects.json, not this block. -->
 
 <table width="100%" border="0" cellpadding="14" cellspacing="8">
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/flatten-rust"><b>⌘ flatten-rust</b></a><br><sub>Высокопроизводительный инструмент для флаттенинга кодовой базы, написанный на Rust</sub><br><sub>◉ Rust　★ 2　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/tokenmill"><b>⌘ tokenmill</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/hhauto"><b>⌘ hhauto</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Steam-Guard-Telegram"><b>⌘ Steam-Guard-Telegram</b></a><br><sub>Код Steam Guard прямо в телеграм</sub><br><sub>◉ JavaScript　★ 1　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Cyber-Garden-2024"><b>⌘ Cyber-Garden-2024</b></a><br><sub>Решение по кейсу Dimeco</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/hhauto"><b>⌘ hhauto</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/TG-Chats-Parser"><b>⌘ TG-Chats-Parser</b></a><br><sub>Парсер чатов Telegram</sub><br><sub>◉ Python　★ 0　⑂ 1</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Telegram-API-Parser"><b>⌘ Telegram-API-Parser</b></a><br><sub>Parser that gets CPM, CPV and ER metrics for N days selected in the parse request</sub><br><sub>◉ Python　★ 2　⑂ 1</sub></td></tr>
 </table>
 
 <sub>Randomly refreshed from the current public repository list · excludes are editable in <code>config/projects.json</code>.</sub>
