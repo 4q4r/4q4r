@@ -25,8 +25,8 @@
 <!-- PROJECTS:START — generated from all current public repositories; edit config/projects.json, not this block. -->
 
 <table width="100%" border="0" cellpadding="14" cellspacing="8">
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/BuildKiller"><b>⌘ BuildKiller</b></a><br><sub>Убей билд, а возможно и сурс вредоносного ПО!</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Steam-Invertory-Helper-Tampermonkey"><b>⌘ Steam-Invertory-Helper-Tampermonkey</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ JavaScript　★ 0　⑂ 0</sub></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Sea_Battle"><b>⌘ Sea_Battle</b></a><br><sub>Игра &quot;Морской бой&quot; на Python и ничего лишнего</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/TG-Chats-Parser"><b>⌘ TG-Chats-Parser</b></a><br><sub>Парсер чатов Telegram</sub><br><sub>◉ Python　★ 0　⑂ 1</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/arch-recreate"><b>⌘ arch-recreate</b></a><br><sub>Self-contained bootstrap: recreate my Arch Linux system (sway/zen/btrfs/zram/BBR) from scratch</sub><br><sub>◉ Shell　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Ferrite"><b>⌘ Ferrite</b></a><br><sub>Ferrite — a magnetically attractive sway bar. Near-zero CPU, fully TOML-configurable, written in Rust.</sub><br><sub>◉ Rust　★ 2　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Secret-Santa-Hackaton"><b>⌘ Secret-Santa-Hackaton</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ —　★ 3　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/ooni-cli-docker"><b>⌘ ooni-cli-docker</b></a><br><sub>A high-quality, secure, and lightweight Docker image for the OONI Probe CLI</sub><br><sub>◉ Shell　★ 1　⑂ 0</sub></td></tr>
 </table>
 
 <sub>Randomly refreshed from the current public repository list · excludes are editable in <code>config/projects.json</code>.</sub>
