@@ -25,8 +25,8 @@
 <!-- PROJECTS:START — generated from all current public repositories; edit config/projects.json, not this block. -->
 
 <table width="100%" border="0" cellpadding="14" cellspacing="8">
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Sea_Battle"><b>⌘ Sea_Battle</b></a><br><sub>Игра &quot;Морской бой&quot; на Python и ничего лишнего</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/tokenmill"><b>⌘ tokenmill</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/anicli-go"><b>⌘ anicli-go</b></a><br><sub>Go TUI anime media center — 30 live sources scripted in Lua, mpv playback, torrent engine (anacrolix), Shikimori + MAL sync, seasonal calendar, Discord RPC</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Cyber-Garden-2024"><b>⌘ Cyber-Garden-2024</b></a><br><sub>Решение по кейсу Dimeco</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/p2p-utility"><b>⌘ p2p-utility</b></a><br><sub>FastAPI-based application that provides functionalities for command execution, filesystem access, and video streaming</sub><br><sub>◉ Python　★ 1　⑂ 1</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/teleparse"><b>⌘ teleparse</b></a><br><sub>Telegram userbot media parser CLI — multi-account, ~150 filters, WEB-proxy v1 (tproxy), anti-ban pacing</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Nord-Checker"><b>⌘ Nord-Checker</b></a><br><sub>Чекер Nord VPN с автопарсингом прокси</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/BuildKiller"><b>⌘ BuildKiller</b></a><br><sub>Убей билд, а возможно и сурс вредоносного ПО!</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
 </table>
 
 <sub>Randomly refreshed from the current public repository list · excludes are editable in <code>config/projects.json</code>.</sub>
