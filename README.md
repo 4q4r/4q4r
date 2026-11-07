@@ -25,8 +25,8 @@
 <!-- PROJECTS:START — generated from all current public repositories; edit config/projects.json, not this block. -->
 
 <table width="100%" border="0" cellpadding="14" cellspacing="8">
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/arti-docker"><b>⌘ arti-docker</b></a><br><sub>🐳 Production-ready Docker image for Arti (Rust Tor client). Fully static binary, distroless runtime, non-root, multi-arch (amd64/arm64). Auto-updated from upstream releases.</sub><br><sub>◉ Dockerfile　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/steamidle"><b>⌘ steamidle</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ JavaScript　★ 0　⑂ 0</sub></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/TG-Chats-Parser"><b>⌘ TG-Chats-Parser</b></a><br><sub>Парсер чатов Telegram</sub><br><sub>◉ Python　★ 0　⑂ 1</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/cindex"><b>⌘ cindex</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Sea_Battle"><b>⌘ Sea_Battle</b></a><br><sub>Игра &quot;Морской бой&quot; на Python и ничего лишнего</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Cyber-Garden-2024"><b>⌘ Cyber-Garden-2024</b></a><br><sub>Решение по кейсу Dimeco</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Steam-account-checker"><b>⌘ Steam-account-checker</b></a><br><sub>Чекер аккаунтов Steam с автоматическим парсингом HTTP-прокси, многопоточный и быстрый</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Aiogram-Password-Generator"><b>⌘ Aiogram-Password-Generator</b></a><br><sub>Телеграмм бот для генерации паролей с админкой на aiogram</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
 </table>
 
 <sub>Randomly refreshed from the current public repository list · excludes are editable in <code>config/projects.json</code>.</sub>
