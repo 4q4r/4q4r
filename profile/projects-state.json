@@ -1,8 +1,8 @@
 {
   "names": [
-    "4q4r/i2pd-docker",
-    "4q4r/NER-Model-for-Company-Names-GOST-and-Product-Names-Detect",
-    "4q4r/UPX_Soft",
-    "4q4r/flatten-rust"
+    "4q4r/BuildKiller",
+    "4q4r/arch-recreate",
+    "4q4r/cindex",
+    "4q4r/anicli-go"
   ]
 }
