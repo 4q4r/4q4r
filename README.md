@@ -25,8 +25,8 @@
 <!-- PROJECTS:START — generated from all current public repositories; edit config/projects.json, not this block. -->
 
 <table width="100%" border="0" cellpadding="14" cellspacing="8">
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Python-FileSharing"><b>⌘ Python-FileSharing</b></a><br><sub>Простой API файлообменник на Flask</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/tokenmill"><b>⌘ tokenmill</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 1　⑂ 0</sub></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/NER-Model-for-Company-Names-GOST-and-Product-Names-Detect"><b>⌘ NER-Model-for-Company-Names-GOST-and-Product-Names-Detect</b></a><br><sub>Модель NER для определения названий компаний, стандартов госта и названий товаров с точностью 97%</sub><br><sub>◉ HTML　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/homebrew-tap"><b>⌘ homebrew-tap</b></a><br><sub>Homebrew tap for anicli-go</sub><br><sub>◉ Ruby　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/arch-recreate"><b>⌘ arch-recreate</b></a><br><sub>Self-contained bootstrap: recreate my Arch Linux system (sway/zen/btrfs/zram/BBR) from scratch</sub><br><sub>◉ Shell　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Steam-Guard-Telegram"><b>⌘ Steam-Guard-Telegram</b></a><br><sub>Код Steam Guard прямо в телеграм</sub><br><sub>◉ JavaScript　★ 1　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Sea_Battle"><b>⌘ Sea_Battle</b></a><br><sub>Игра &quot;Морской бой&quot; на Python и ничего лишнего</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Telegram-AntiPublic"><b>⌘ Telegram-AntiPublic</b></a><br><sub>mail:pass антипаблик в Telegram</sub><br><sub>◉ Python　★ 1　⑂ 0</sub></td></tr>
 </table>
 
 <sub>Randomly refreshed from the current public repository list · excludes are editable in <code>config/projects.json</code>.</sub>
