@@ -25,8 +25,8 @@
 <!-- PROJECTS:START — generated from all current public repositories; edit config/projects.json, not this block. -->
 
 <table width="100%" border="0" cellpadding="14" cellspacing="8">
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/flatten-rust"><b>⌘ flatten-rust</b></a><br><sub>Высокопроизводительный инструмент для флаттенинга кодовой базы, написанный на Rust</sub><br><sub>◉ Rust　★ 2　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/cindex"><b>⌘ cindex</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Telegram-AntiPublic"><b>⌘ Telegram-AntiPublic</b></a><br><sub>mail:pass антипаблик в Telegram</sub><br><sub>◉ Python　★ 1　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Sea_Battle"><b>⌘ Sea_Battle</b></a><br><sub>Игра &quot;Морской бой&quot; на Python и ничего лишнего</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/AutoSeller"><b>⌘ AutoSeller</b></a><br><sub>ArchiSteamFarm plugin that auto-sells Steam Community Market drops for bots whose 2FA is managed by ASF.</sub><br><sub>◉ C#　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/TG-Chats-Parser"><b>⌘ TG-Chats-Parser</b></a><br><sub>Парсер чатов Telegram</sub><br><sub>◉ Python　★ 0　⑂ 1</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/BuildKiller"><b>⌘ BuildKiller</b></a><br><sub>Убей билд, а возможно и сурс вредоносного ПО!</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Telegram-AntiPublic"><b>⌘ Telegram-AntiPublic</b></a><br><sub>mail:pass антипаблик в Telegram</sub><br><sub>◉ Python　★ 1　⑂ 0</sub></td></tr>
 </table>
 
 <sub>Randomly refreshed from the current public repository list · excludes are editable in <code>config/projects.json</code>.</sub>
