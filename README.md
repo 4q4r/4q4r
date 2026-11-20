@@ -25,8 +25,8 @@
 <!-- PROJECTS:START — generated from all current public repositories; edit config/projects.json, not this block. -->
 
 <table width="100%" border="0" cellpadding="14" cellspacing="8">
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Steam-Invertory-Helper-Tampermonkey"><b>⌘ Steam-Invertory-Helper-Tampermonkey</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ JavaScript　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/UPX_Soft"><b>⌘ UPX_Soft</b></a><br><sub>Удобный лаунчер upx с красивым интерфейсом и новыми функциями</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/flatten-rust"><b>⌘ flatten-rust</b></a><br><sub>Высокопроизводительный инструмент для флаттенинга кодовой базы, написанный на Rust</sub><br><sub>◉ Rust　★ 2　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/hhauto"><b>⌘ hhauto</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/arch-recreate"><b>⌘ arch-recreate</b></a><br><sub>Self-contained bootstrap: recreate my Arch Linux system (sway/zen/btrfs/zram/BBR) from scratch</sub><br><sub>◉ Shell　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/hhauto"><b>⌘ hhauto</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/teleparse"><b>⌘ teleparse</b></a><br><sub>Telegram userbot media parser CLI — multi-account, ~150 filters, WEB-proxy v1 (tproxy), anti-ban pacing</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Telegram-API-Parser"><b>⌘ Telegram-API-Parser</b></a><br><sub>Parser that gets CPM, CPV and ER metrics for N days selected in the parse request</sub><br><sub>◉ Python　★ 2　⑂ 1</sub></td></tr>
 </table>
 
 <sub>Randomly refreshed from the current public repository list · excludes are editable in <code>config/projects.json</code>.</sub>
