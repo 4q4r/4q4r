@@ -25,8 +25,8 @@
 <!-- PROJECTS:START — generated from all current public repositories; edit config/projects.json, not this block. -->
 
 <table width="100%" border="0" cellpadding="14" cellspacing="8">
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/opencode-mandator"><b>⌘ opencode-mandator</b></a><br><sub>🛡️ OpenCode v2 enforcement plugin: skills gate → memory gate → dispatch-brief structure → loop breakers. TypeScript + Bun, 36 config options, opt-in via opencode.json. One JSON, ze</sub><br><sub>◉ TypeScript　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/BuildKiller"><b>⌘ BuildKiller</b></a><br><sub>Убей билд, а возможно и сурс вредоносного ПО!</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Telegram-API-Parser"><b>⌘ Telegram-API-Parser</b></a><br><sub>Parser that gets CPM, CPV and ER metrics for N days selected in the parse request</sub><br><sub>◉ Python　★ 2　⑂ 1</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/homebrew-tap"><b>⌘ homebrew-tap</b></a><br><sub>Homebrew tap for anicli-go</sub><br><sub>◉ Ruby　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/ooni-cli-docker"><b>⌘ ooni-cli-docker</b></a><br><sub>A high-quality, secure, and lightweight Docker image for the OONI Probe CLI</sub><br><sub>◉ Shell　★ 1　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/teleparse"><b>⌘ teleparse</b></a><br><sub>Telegram userbot media parser CLI — multi-account, ~150 filters, WEB-proxy v1 (tproxy), anti-ban pacing</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Python-FileSharing"><b>⌘ Python-FileSharing</b></a><br><sub>Простой API файлообменник на Flask</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/hhauto"><b>⌘ hhauto</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
 </table>
 
 <sub>Randomly refreshed from the current public repository list · excludes are editable in <code>config/projects.json</code>.</sub>
