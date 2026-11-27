@@ -25,8 +25,8 @@
 <!-- PROJECTS:START — generated from all current public repositories; edit config/projects.json, not this block. -->
 
 <table width="100%" border="0" cellpadding="14" cellspacing="8">
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Nord-Checker"><b>⌘ Nord-Checker</b></a><br><sub>Чекер Nord VPN с автопарсингом прокси</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/anicli-go"><b>⌘ anicli-go</b></a><br><sub>Go TUI anime media center — 30 live sources scripted in Lua, mpv playback, torrent engine (anacrolix), Shikimori + MAL sync, seasonal calendar, Discord RPC</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Steam-Guard-Telegram"><b>⌘ Steam-Guard-Telegram</b></a><br><sub>Код Steam Guard прямо в телеграм</sub><br><sub>◉ JavaScript　★ 1　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Sea_Battle"><b>⌘ Sea_Battle</b></a><br><sub>Игра &quot;Морской бой&quot; на Python и ничего лишнего</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Sea_Battle"><b>⌘ Sea_Battle</b></a><br><sub>Игра &quot;Морской бой&quot; на Python и ничего лишнего</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Python-FileSharing"><b>⌘ Python-FileSharing</b></a><br><sub>Простой API файлообменник на Flask</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Ferrite"><b>⌘ Ferrite</b></a><br><sub>Ferrite — a magnetically attractive sway bar. Near-zero CPU, fully TOML-configurable, written in Rust.</sub><br><sub>◉ Rust　★ 2　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Aiogram-Password-Generator"><b>⌘ Aiogram-Password-Generator</b></a><br><sub>Телеграмм бот для генерации паролей с админкой на aiogram</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
 </table>
 
 <sub>Randomly refreshed from the current public repository list · excludes are editable in <code>config/projects.json</code>.</sub>
