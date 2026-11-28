@@ -25,8 +25,8 @@
 <!-- PROJECTS:START — generated from all current public repositories; edit config/projects.json, not this block. -->
 
 <table width="100%" border="0" cellpadding="14" cellspacing="8">
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/cindex"><b>⌘ cindex</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Secret-Santa-Hackaton"><b>⌘ Secret-Santa-Hackaton</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ —　★ 3　⑂ 0</sub></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/hhauto"><b>⌘ hhauto</b></a><br><sub>A public repository by 4q4r.</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/anime_upscale"><b>⌘ anime_upscale</b></a><br><sub>🎬 Anime video pipeline: descale → deband → AI-upscale → RIFE interpolation → x265 HEVC. VapourSynth + PyTorch/TRT, multi-GPU fan-out, Docker, Kaggle/Colab. One TOML, zero env vars.</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Cyber-Garden-2024"><b>⌘ Cyber-Garden-2024</b></a><br><sub>Решение по кейсу Dimeco</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/Nord-Checker"><b>⌘ Nord-Checker</b></a><br><sub>Чекер Nord VPN с автопарсингом прокси</sub><br><sub>◉ Python　★ 0　⑂ 0</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/4q4r/Telegram-API-Parser"><b>⌘ Telegram-API-Parser</b></a><br><sub>Parser that gets CPM, CPV and ER metrics for N days selected in the parse request</sub><br><sub>◉ Python　★ 2　⑂ 1</sub></td><td width="50%" valign="top"><a href="https://github.com/4q4r/wauploader"><b>⌘ wauploader</b></a><br><sub>Go CLI: batch-save pages to web.archive.org (SPN2 API) and upload files/directories to archive.org items (IA-S3 API) — API-only, no browser, resume, RU console</sub><br><sub>◉ Go　★ 0　⑂ 0</sub></td></tr>
 </table>
 
 <sub>Randomly refreshed from the current public repository list · excludes are editable in <code>config/projects.json</code>.</sub>
